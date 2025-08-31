@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+p{
+    font-family: arial;
+    font-size: 16px;
+}
+
+h1{
+    font-family: arial;
+    font-size: 10;
+}
+
+h2{
+    font-family: arial;
+    font-size: 20;
+}
+
+h3{
+    font-family: arial;
+    font-size: 18;
+    
+}
+header{
+    background-color: #000000;
+    text-align: center;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: arial;
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+.imagem-conteudo{
+    border-radius: 20px; /* Arredonda os cantos */
+    display: block;/* imagem se comporta como um bloco (ocupa toda a linha) */
+    margin: 20px auto; /* Cria 20px de espaço em cima e embaixo e centraliza */
+    max-width: 60%;/* imagem ocupa no máximo 60% da largura do container */
+    height: auto;/* Mantém a proporção da imagem, sem distorcer */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra na imagem */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* animação suave */
+     
+    
+}
+
+
+#imagem-topo{
+    text-align: center;
+}
+
+header img {
+    max-width: 200px; 
+}
+
+
+
+/* Definição do tamanho do container, imagem, espaçamento, */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px; /* cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*sombra */
+}
+
+
+h1, h2, h3 {
+    color: #0056b3; /* cor nos títulos */
+}
+
+
+/* Efeito quando o mouse passa sobre a imagem */
+.imagem-conteudo:hover {
+    transform: scale(1.01); /* aumenta a imagem em 5% */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* sombra mais intensa */
+    opacity: 0.9;
+}
+
+
+body {
+  
+background-color: #fff;
+   
+   
+}
+/* menu*/
+nav{
+    background-color: #333;
+    padding: 10px 0;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.menu a:hover{
+    background-color: #0056b3;
+}
